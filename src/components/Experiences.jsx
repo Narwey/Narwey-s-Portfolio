@@ -20,14 +20,14 @@ function Experiences() {
 
 const Experience = ({companyLogo: CompanyLogo, jobName, description}) => {
     return (
-        <div className='group rounded-md border border-[#71717A] px-4 py-6 mb-6 hover:bg-[#27272A]'>
+        <div className='group rounded-md border border-[#71717A] px-4 py-6 mb-6'>
             <div className='flex items-center gap-8 mb-5'>
                 <div className='max-w-28 sm:max-w-32'>
                     <img src={CompanyLogo} alt="company logo" />
                 </div>
                 <h3 className='font-semibold text-white text-xl sm:text-2xl'>{jobName}</h3>
             </div>
-            <p className='text-[#D4D4D8] group-hover:text-[#71717A]'>{description}</p>
+            <p className='text-[#D4D4D8]'>{description}</p>
         </div>
     )
 }
