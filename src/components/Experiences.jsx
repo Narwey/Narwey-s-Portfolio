@@ -4,6 +4,8 @@ import up2careerlogo from '../assets/logo1.png'
 import arkxlogo from '../assets/download-removebg-preview.png'
 
 
+
+
 function Experiences() {
     return (
         <section className='mt-24 py-20 bg-black' id='experience'>
