@@ -51,10 +51,10 @@ export const Projects = () => {
                             <a href={project.url} target='_blank'><img src={project.image} alt="project image" className='w-full' /></a>
                         </div>
                         <div className='text-white w-full'>
-                            <span className='block font-extrabold text-5xl mb-8'>{String(index + 1).padStart(2, '0')}</span>
-                            <h3 className='font-bold text-4xl mb-5'>{project.name}</h3>
+
+                            <div className='flex justify-center'> <h3 className='font-bold text-4xl mb-5'>{project.name}</h3> <a href={project.url} target='_blank' className='m-3'><FaExternalLinkAlt color='white'/></a> </div>
                             <p className='text-[#71717A]'>{project.description}</p>
-                            <a href={project.url} target='_blank' className='block mt-5'><FaExternalLinkAlt color='white'/></a>
+                            
                         </div>
                     </div>
                 ))}
