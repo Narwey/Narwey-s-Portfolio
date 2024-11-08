@@ -17,7 +17,7 @@ function Hero() {
           </h1>
           <p className="mt-6 md:text-sm text-xs text-[#71717A]">
             I'm Anouar Benmbark, a full-stack developer with a background in
-            Computer Science. <br /> I’ve honed my backend and frontend skills
+            Computer Science. <br />I’m currently pursuing my master's degree in Big Data and Cloud Computing. <br /> I’ve honed my backend and frontend skills
             through experience at startups like Tython and UP2CAREER, along with
             intensive bootcamps at Arkx ( MERN stack ) and Simplon ( Laravel and
             Vue.js ). Now, I’m ready to apply my expertise in a dynamic company.
