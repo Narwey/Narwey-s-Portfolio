@@ -19,7 +19,7 @@ function NavBar() {
           <img src={blackLogo} alt="logo" />
 
           {/* Desktop */}
-          <ul className="hidden gap-5 font-semibold text-xl lg:flex">
+          <ul className="hidden gap-5 font-semibold text-md lg:flex">
             {links.map((item, index) => (
               <li
                 key={index}
@@ -49,7 +49,7 @@ function NavBar() {
 
         {/* Mobile Menu */}
         {isOpen && (
-          <nav className="container lg:hidden flex flex-col items-center gap-5 font-semibold text-xl mt-4">
+          <nav className="container lg:hidden flex flex-col items-center gap-5 font-semibold text-md mt-4">
             <ul className="flex flex-col gap-5 w-full text-center">
               {links.map((item, index) => (
                 <li

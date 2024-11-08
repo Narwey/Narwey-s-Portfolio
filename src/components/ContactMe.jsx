@@ -32,6 +32,11 @@ const ContactMe = () => {
     };
     return (
         <section className='container flex flex-col gap-24 sm:justify-between lg:flex-row mb-12 mt-14' id='contact-me'>
+             <div className='w-full'>
+                <h2 className='font-extrabold text-5xl mb-8 leading-snug'>Let’s talk for Something special</h2>
+                <p className='text-[#71717A]'>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
+                <p className='font-semibold text-2xl mt-6 break-words'>Benmbark.anouar@gmail.com</p>
+            </div>
             <form onSubmit={onSubmit} className='flex flex-col w-full gap-5'>
                 <input type="text" name='Your name' placeholder='Your name' className='px-3 py-3 border border-black rounded-md' required/>
                 <input type="email" name='Email' placeholder='Email' className='px-3 py-3 border border-black rounded-md' required/>
@@ -40,18 +45,14 @@ const ContactMe = () => {
 
                 <div className='block xl:flex gap-8 mt-9'>
                     <button type='submit' className='text-white bg-black px-4 rounded mb-4 xl:mb-0 py-3 hover:bg-[#404040]'>Get In Touch</button>
-                    <div className='flex flex-wrap gap-8'>
+                    {/* <div className='flex flex-wrap gap-8'>
                         <SocialBtn icon={FaGithub} link='https://github.com/Narwey' />
                         <SocialBtn icon={FaLinkedin} link='https://www.linkedin.com/in/anouarben/' />
-                    </div>
+                    </div> */}
                 </div>
                 <span>{result}</span>
             </form>
-            <div className='w-full'>
-                <h2 className='font-extrabold text-5xl mb-8 leading-snug'>Let’s talk for Something special</h2>
-                <p className='text-[#71717A]'>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
-                <p className='font-semibold text-2xl mt-6 break-words'>Benmbark.anouar@gmail.com</p>
-            </div>
+           
         </section>
     )
 }
