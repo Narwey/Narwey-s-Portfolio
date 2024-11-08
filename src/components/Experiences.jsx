@@ -5,7 +5,7 @@ import arkxlogo from '../assets/download-removebg-preview.png'
 
 function Experiences() {
     return (
-        <section className='mt-24 py-20 bg-black' id='experience'>
+        <section className='mt-24 py-20 bg-black' id='Experiences'>
             <h2 className='text-5xl text-white text-center mb-10 sm:mb-20'>My <span className='font-extrabold'>Experience</span></h2>
             
             <div className='container'>
@@ -55,7 +55,7 @@ const Experience = ({ companyLogo: CompanyLogo, jobName, description, skills }) 
     const [firstDescription, ...remainingDescriptions] = description;
 
     return (
-        <div className='group rounded-md border border-[#71717A] px-4 py-6 mb-6'>
+        <div className='group rounded-md border border-[#71717A] px-4 py-6 mb-6' >
             <div className='flex items-center gap-8 mb-5'>
                 <div className='max-w-28 sm:max-w-32'>
                     <img src={CompanyLogo} alt="company logo" />

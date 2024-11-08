@@ -5,9 +5,9 @@ import { GiHamburgerMenu } from "react-icons/gi";
 
 const links = [
     { name: 'About Me', link: '#about-me' },
-    { name: 'Skills', link: '#skills' },
     { name: 'Projects', link: '#projects' },
-    { name: 'Contact Me', link: '#contact-me' }
+    { name: 'Experiences', link: '#Experiences' },
+    { name: 'Contact Me', link: '#contact-me'}
 ]
 
 function NavBar() {

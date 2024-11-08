@@ -31,7 +31,7 @@ const ContactMe = () => {
         }
     };
     return (
-        <section className='container flex flex-col gap-24 sm:justify-between lg:flex-row mb-12' id='contact-me'>
+        <section className='container flex flex-col gap-24 sm:justify-between lg:flex-row mb-12 mt-14' id='contact-me'>
             <form onSubmit={onSubmit} className='flex flex-col w-full gap-5'>
                 <input type="text" name='Your name' placeholder='Your name' className='px-3 py-3 border border-black rounded-md' required/>
                 <input type="email" name='Email' placeholder='Email' className='px-3 py-3 border border-black rounded-md' required/>
