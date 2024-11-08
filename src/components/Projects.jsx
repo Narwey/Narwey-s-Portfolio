@@ -1,5 +1,5 @@
 import React from 'react'
-import EcoMarket from '../assets/ecomarket.png'
+import EcoMarket from '../assets/oga.png'
 import documentProject from '../assets/documentProject.png'
 import weather from '../assets/weather2.png'
 import up2career from '../assets/up2career.png'
@@ -26,10 +26,10 @@ const projects = [
         url: 'https://github.com/Narwey/document-manager-v2/'
     },
     {
-        name: 'EcoMarket Project',
-        description: "EcoMarket is a web platform for selling eco-friendly products, built with Laravel, Inertia.js, Vue.js, and MySQL. It offers a seamless experience for users to explore and purchase sustainable products, focusing on a modern, efficient design and functionality.",
+        name: 'Handmade Haven',
+        description: "Handmade Haven is a web platform built with the MERN stack (MongoDB, Express.js, React.js, Node.js) for selling eco-friendly and artisanal products. It offers a seamless experience for users to explore and purchase sustainable products, emphasizing modern, efficient design and functionality.",
         image: EcoMarket,
-        url: 'https://github.com/Narwey/EcoMarket-Projet'
+        url: 'https://github.com/Narwey/E-commerce-Handmade-heaven'
     },
     {
         name: 'Static Bank',
