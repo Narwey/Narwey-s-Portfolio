@@ -70,7 +70,7 @@ const Experience = ({ companyLogo: CompanyLogo, jobName, description, skills }) 
             </ul>
             <div className='flex flex-wrap gap-4 pl-10'>
                 {skills.map((skill, index) => (
-                    <div key={index} className='border border-[#FFD700] text-white px-4 py-2 rounded-lg text-center font-semibold transition duration-300 hover:scale-105 shadow-lg shadow-[#FFD700]/50'>
+                    <div key={index} className='border border-[#4B5563] text-white px-4 py-2 rounded-lg text-center font-semibold transition duration-300 hover:scale-105 shadow-lg shadow-[#4B5563]/50'>
                         {skill}
                     </div>
                 ))}
